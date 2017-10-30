@@ -4,50 +4,163 @@
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" type="text/css" href="Style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-
+<script src="jquery-3.2.1.min.js"></script>
 	<title>Viktor Åhlund</title>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#workcirkel2").click(function(){
+			$("#workcirkel2").animate({"height":"550" ,"width":"1200", "border-radius":"0","z-index":"2"},300);
+		});
+	});
+	</script>
+
 </head>
 
 <header>
 	<ul id="nav">
-		<li><a href="#home">Home</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#work">Work</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<li id="nav"><a href="#
+
+			">ABOUT</a></li>
+		<li id="nav"><a href="#work">PORTFOLIO</a></li>
+		<li id="nav"><a href="#contact">CONTACT</a></li>
 	</ul>
 </header>
 
 <body>
 
 	<div id="home">
-		
+		<div class="container">
+				<div id="outerrectangle">
+					<div id="innerrectangle">
+						<div id="circle"></div>
+						<p id="welcometext">Viktor Åhlund</p>
+						<p id="welcometextsmall">UX Designer</p>
+						<ul id="contacticons">
+							<li id="contacticons"><a id="facebook" href="https://www.facebook.com/vahlund" target="_blank"></a></li>
+							<li id="contacticons"><a id="instagram" href="https://www.instagram.com/viktorahlund/"target="_blank"></a></li>
+							<li id="contacticons"><a id="linkedin" href="https://www.linkedin.com/in/viktor-åhlund-8038bb13a" target="_blank"></a></li>
+							<li id="contacticons"><a id="github" href="https://github.com/MiniPrinsen" target="_blank"></a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
 	</div>
-	<div id="about"></div>
+	<div id="about">
+		<div class="containerabout">
+			<div id="half2">
+
+			</div>
+			<div class="rubric-containerabout">
+				<h1 class="rubricabout">This is me</h1>
+			</div>
+			<div id="abouttext">
+					<p id="abouttext">Lorem ipsum dolor sit amet, homero maiestatis philosophia vix te. Et usu sumo illud, graeci essent consulatu eu has. Ex ubique facete gloriatur eos, per mazim munere detracto eu, illum commune ea cum. Duo in verear lucilius euripidis, eu per vide consul.
+
+His at dictas deleniti, oratio vocibus mandamus id qui. Per timeam legimus no. Pri ut alia ludus, no vitae nonumes suscipiantur vix, qui hendrerit posidonium comprehensam in. Eripuit ornatus eos id, nam ea quod prima, id quas nominavi singulis quo.
+
+Nec veri augue no. Alii primis ius ea, mel aliquando reformidans ex, at nec feugiat debitis dissentiunt. Vim nostrud deseruisse philosophia cu, albucius efficiendi te nec, pro mucius rationibus at. Est soleat referrentur disputationi ex.
+
+No sale munere noluisse ius, mel eius sale ne, adhuc facete admodum id pri. Ius libris debitis no, periculis iracundia ut sit, possit voluptatibus ea ius. Mel falli mediocrem et. Ea has sale oratio nostro, ut usu error scaevola patrioque. No quot utamur salutatus pro, augue commodo detracto ne est, vis ei saperet eloquentiam.
+
+Postea saperet gubergren has an. His cu dico veri. Dolorum placerat at eam. Id case semper vix, reque postulant per an, per debet timeam ad. Gloriatur mnesarchum mel ut, usu diam wisi expetendis no, veniam accumsan verterem id per.
+</p>
+				</div>
+		</div>
+	</div>
+
 	<div id="work">
-		<div id="workcirkel1">
-			<div class="overlay">
+		<div class="container">
+			<div class="rubric-container">
+				<h1 class="rubric">Portfolio</h1>
+			</div>
+			<div id ="workcircles">
+				<div id="workcirkel1">
+					
+						
+						
+					<!--<p class="worktext">In the fall 2016 I was doing a course about project management.
+					I got the opportunity to work with a real project, All-star games floorball. This was the first all-star game for floorball which i'm really happy to be a part of. My contribution onto this was designing and creating the website, part of the development of a logotype and managing all social media until the event was happening.</p>-->
+					
+				</div>
+
+				<div id="workcirkel2">
+					<!--<div class="overlay">
+						<h1 class="workheader">NK Ergonomics</h1>
+						<p class="worktext2">NK Ergonomics is a project conducted in the course Product Development in Media Technology with the method "Design-Build-Test" in collaboration with the company North Kingdom. They had the problem that the employees spent too much time in stationary positions and wanted to change that. Together with North Kingdom, we came up with the solution to create a Chrome plugin that notifies the user when he/she is on an unproductive site. This could trigger every 3 hours which then sent a request to our app where you could start a game. The game, which only became a prototype, was made to get the user to move using AR. The final delivery contained the plugin, app, server and game ideas.</p>
+					</div>-->
+				</div>
+				<div id="workcirkel3">
 				
-				<h1 class="workheader">All-star Games</h1>
-			<p class="worktext">In the fall 2016 I was doing a course about project management.
-			I got the opportunity to work with a real project, All-star games floorball. This was the first all-star game for floorball which i'm really happy to be a part of. My contribution onto this was designing and creating the website, part of the development of a logotype and managing all social media until the event was happening.</p>
+						<!--<p class="worktext2">In the summer of 2016 i worked with LTU and North Kingdom for Umeå and Skellefteå Kommun. The task was to create an app for their 2 year project about Smart cities. The purpose of the app is to enable users to talk with "dead" objects. This includes fountains, bridges and other historic objects around a city. When you get close enough to one of these, a chat window is activated where you can chat with that object. What we managed to create during this summer was the design and implementation of the app, a server and database holding different bots, pictures and locations of these objects. The rest will be implemented this summer(2017).
+						</p>-->
+
+				</div>
 			</div>
 		</div>
-		<div id="workcirkel2">
-			<div class="overlay">
-				<h1 class="workheader">NK Ergonomics</h1>
-				<p class="worktext2">NK Ergonomics is a project conducted in the course Product Development in Media Technology with the method "Design-Build-Test" in collaboration with the company North Kingdom. They had the problem that the employees spent too much time in stationary positions and wanted to change that. Together with North Kingdom, we came up with the solution to create a Chrome plugin that notifies the user when he/she is on an unproductive site. This could trigger every 3 hours which then sent a request to our app where you could start a game. The game, which only became a prototype, was made to get the user to move using AR. The final delivery contained the plugin, app, server and game ideas.</p>
+	</div>
+
+	
+	<div id="resume">
+		<div class="container">
+			<div class="rubric-containerresume">
+				<h1 class="rubricresume">Resumé</h1>
+			</div>
+			<div id="resumetext">
+				<p id="education">Education</p>
+				<p id="education"> 2014-2019 <b>MSc. in Interaction Technology & Design</b> Umeå Universitet</p>
+				<p id="education"> 2017 <b>Exchange Studies</b> University of Manitoba</p>
+				<p id="education"> 2010-2013 <b>Teknikprogrammet, inriktning Energi</b> Balderskolan</p>
+				<p id="employmentheader">Employment</p>
+				<p id="employment">2016-2017<b> UX Designer</b> Sense Smart Region</p>
+				<p id="employment">2016-2017<b> App developer</b> Sense Smart Region</p>
+				<p id="employment">2017<b> UX Designer</b> NK Ergonomics</p>
+				<p id="employment">2016<b> Web Developer</b> All-star Games Floorball</p>
+
+<p id="download">Download CV</p>
 			</div>
 		</div>
-		<div id="workcirkel3">
-			<div class="overlay">
-				<h1 class="workheader">SenseSmart</h1>
-				<p class="worktext2">In the summer of 2016 i worked with LTU and North Kingdom for Umeå and Skellefteå Kommun. The task was to create an app for their 2 year project about Smart cities. The purpose of the app is to enable users to talk with "dead" objects. This includes fountains, bridges and other historic objects around a city. When you get close enough to one of these, a chat window is activated where you can chat with that object. What we managed to create during this summer was the design and implementation of the app, a server and database holding different bots, pictures and locations of these objects. The rest will be implemented this summer(2017).
-				</p>
+	</div>
+
+<div class="parallax3"></div> 
+	<div id="contact">
+		<div class="containercontact">
+			<div id="half">
+			</div>
+			<div class="rubric-containercontact">
+				<h1 class="rubriccontact">Get in touch</h1>
 			</div>
 
+				<ul id="contactpage">
+					<p id="contactme">Don't be a stranger! Give me a call about anything.<br>Projects, ideas, a cup of coffee, you decide!</p>
+					<li id="contactpage">
+						<a id="phone" target="_blank"></a>
+						<p id="contacttext">+46(0)76-104 45 49</p>
+					</li>
+					<li id="contactpage">
+						<a id="mail"target="_blank"href="mailto:viktor.ahlund@gmail.com"></a>
+						<p id="contacttext" style="cursor:pointer;"><a id="underline" href="mailto:viktor.ahlund@gmail.com">viktor.ahlund@gmail.com</a></p>
+					</li>
+					
+					<li id="contactpage">
+						<a id="facebook" href="https://www.facebook.com/vahlund" target="_blank"></a>
+						<p id="contacttext">/vahlund</p>
+					</li>
+					<li id="contactpage">
+						<a id="instagram" href="https://www.instagram.com/viktorahlund/"target="_blank"></a>
+						<p id="contacttext">@viktorahlund</p>
+					</li>
+					<li id="contactpage">
+						<a id="linkedin" href="https://www.linkedin.com/in/viktor-åhlund-8038bb13a" target="_blank"></a>
+						<p id="contacttext">viktor åhlund</p>
+					</li>
+					<li id="contactpage">
+						<a id="github" href="https://github.com/MiniPrinsen" target="_blank"></a>
+						<p id="contacttext">/miniprinsen</p>
+					</li>
+					
+				</ul>
 		</div>
 	</div>
-	<div id="contact"></div>
 
 </body>
 
